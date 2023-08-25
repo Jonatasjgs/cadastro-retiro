@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro-retiro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Menu Inicial-->
+    <div id="menuInicial">
+        <a href="https://www.facebook.com/I.V.M.R.V?mibextid=ZbWKwL">
+            <img id="menuLogo" src="./img/mrv_logo.jpg" alt="ERROR">
+        </a>
+            <h1 id="MenuTitulo">Igreja Evángélica Missão Resgatando Vidas</h1>
+    </div>
+
+    <!--Formulario-->
+    <form action="https://api.sheetmonkey.io/form/8QjS2WTSuVMqDUdEmHsFso" method="post">
+        <div id="formulario">
+            <h1 id="tituloForm">Formulário De Cadastro De Membros</h1>
+            
+            <div class="text">
+                <label for="nome">Nome Completo:</label> <br>
+                <input type="text" id="nome" placeholder="Nome Completo" name="Name" required>
+            </div>
+
+            <div class="text">
+                <label for="localidade">Endereço:</label> <br>
+                <input type="text" id="rua" placeholder="Endereço E Número" name="Endereço" required>
+            </div>
+
+            <div class="text">
+                <label for="cidade">Cidade:</label> <br>
+                <input type="text" id="suaCidade" placeholder="Cidade" name="Cidade" required>
+            </div>
+
+            <div class="text">
+                <label for="bairro">Bairro:</label> <br>
+                <input type="text" id="seubairro" placeholder="Bairro" name="Bairro" required>
+            </div>
+
+            <div class="text">
+                <label for="email">Email:</label> <br>
+                <input type="email" id="seuEmail" placeholder="Ex: 123@gmail.com" name="Email" required>
+            </div>
+
+            <div class="text">
+                <label for="tel">Tel:</label> <br>
+                <input type="text" id="zap" placeholder="Telefone ou whatsapp" name="tel" required>
+            </div>
+            <button type="submit">Enviar</button>
+        <script src="index.js"></script>
+    </form>
+        </div>
+</html>
