@@ -57,7 +57,7 @@ select{
 }
 
 button{
-    margin: 10px 47%;
+    margin: 10px 46%;
     width: 90px;
     height: 30px;
     cursor: pointer;
@@ -69,4 +69,13 @@ button:hover{
     transform: translateY(-7px);
     box-shadow: 0px 15px 20px #06909281;
     transition-duration: 0.5s;
+}
+
+.textFinal{
+    text-align: center;
+}
+
+strong{
+    text-decoration: underline;
+    text-align: center;
 }
